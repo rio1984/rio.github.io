@@ -1,0 +1,33 @@
+:root {
+  --theme: #7A756D !important;
+  --accent: #202020 !important;
+  --link: #7A756D !important;
+}
+
+body {
+  background-color: #F8F6F4 !important;
+}
+
+#sidebar {
+  background: linear-gradient(135deg, #ede8e0, #e0d8cc) !important;
+}
+
+.logo .avatar {
+  margin-bottom: 12px !important;
+}
+
+.header .title .sub {
+  white-space: normal !important;
+  word-break: break-all !important;
+  line-height: 1.5 !important;
+}
+
+.header .title .sub {
+  white-space: normal !important;
+  word-break: keep-all !important;
+  line-height: 1.6 !important;
+}
+
+.header .title .sub {
+  text-align: left !important;
+}
