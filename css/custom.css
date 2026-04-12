@@ -31,3 +31,23 @@ body {
 .header .title .sub {
   text-align: left !important;
 }
+
+body, .md-text {
+  font-weight: 150 !important;
+}
+
+.header .avatar img {
+  width: 72px !important;
+  height: 72px !important;
+}
+
+.header .logo-wrap .avatar {
+  width: 72px !important;
+  height: 72px !important;
+}
+
+.header .logo-wrap .avatar img {
+  width: 72px !important;
+  height: 72px !important;
+}
+
