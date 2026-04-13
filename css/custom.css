@@ -51,3 +51,35 @@ body, .md-text {
   height: 72px !important;
 }
 
+
+.md-text h2 {
+  border-left-width: 2px !important;
+}
+
+.md-text h2 {
+  border-left-width: 1px !important;
+}
+
+.md-text h2,
+.md-text h2::before,
+h2.title-h2,
+h2.title-h2::before {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+.l_body article.content h1 > a:first-child,
+.l_body article.content h2 > a:first-child,
+.l_body article.content h3 > a:first-child,
+.l_body article.content h4 > a:first-child {
+  background: none !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+
+.l_body article.content h1 > a:first-child::before,
+.l_body article.content h2 > a:first-child::before,
+.l_body article.content h3 > a:first-child::before,
+.l_body article.content h4 > a:first-child::before {
+  display: none !important;
+}
